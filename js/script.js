@@ -151,7 +151,7 @@
 // }
 
 
-                                    //  Условия
+//  Условия
 
 // if (4 == 4) {
 //     console.log('Ok');
@@ -185,27 +185,184 @@
 // }
 
 
-//                         //  Тернарный оператор
+                        //  Тернарный оператор
 
 // (num === 50) ? console.log('Ok') : console.log('Error');
 
                         // Свитч
-const num = 50;                        
+// const num = 50;                        
 
-switch (num) {
-    case 49:
-        console.log('Не верно');
-        break;
-    case 100:
-        console.log('Не верно');            
-        break;
-     case 50:
-        console.log('В точку!');
-        break;
-     default:
-        console.log('Не в этот раз');
-        break;
-}
+// switch (num) {
+//     case 49:
+//         console.log('Не верно');
+//         break;
+//     case 100:
+//         console.log('Не верно');            
+//         break;
+//      case 50:
+//         console.log('В точку!');
+//         break;
+//      default:
+//         console.log('Не в этот раз');
+//         break;
+// }
+
+
+
+
+                         // Логические операторы && , || ,
+
+
+// const a = 3
+
+// console.log((!1));            //2
+// console.log( !1 && 3 );
+// console.log( !1 && 3 );  //3
+// console.log( 1 && !3 );        //4
+// console.log( !1 && 2 || 3 );
+// console.log( NaN && 2 && undefined );
+
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+
+
+// if (hamburger === 3 && cola || fries === 3 && nuggets) {
+//    console.log('Done!')
+// }
+
+                                                            //   циклы
+
+//  let num =50;
+// while (num <= 55) {
+//     console.log(num);
+//     num++
+// }
+
+
+// let num1 =50;
+
+// do {
+//     console.log(num1);
+//     num1++;
+// }
+// while (num1 < 55);
+
+// let num3 = 50
+// for (let i = 1; i < 8; i++) {
+// console.log(num3);
+// num3++;
+// }
+
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j);
+//     }
+// }
+
+
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+
+// let result = '';
+// const lenght = 7;
+
+// for (let i = 1; i < lenght; i++) {
+
+//     for (let j = 0; j < i; j++) {
+//         result += '*';
+//     }
+
+//     result += '\n';
+// }
+
+// console.log(result);
+
+
+
+// first: for (let i = 0; i < 3; i++) {
+//     console.log(`First level: ${i}`);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(`Second level: ${j}`);
+//         for (let k = 0; k < 3; k++) {
+//             if (k == 2) break first;
+//             console.log(`Third level: ${k}`);
+//         }
+//     }
+// }
+
+// let i, j;
+
+// loop1: for (i = 0; i < 3; i++) {
+  //Первый цикл, обозначенный меткой "loop1"
+//   loop2: for (j = 0; j < 3; j++) {
+    //Второй цикл, обозначенный меткой "loop2"
+//     if (i === 1 && j === 1) {
+//       continue loop1;
+//     }
+//     console.log("i = " + i + ", j = " + j);
+//   }
+// }
+
+// function firstTask() {
+    // Пишем решение вот тут
+//     for(let i = 5; i <= 10; i++) {
+//   console.log(i);
+// }
+    
+// }
+
+// function secondTask() {
+    // Пишем решение вот тут
+//      for (let i = 20; i >= 10; i--) {
+//         if (i == 13) break;
+//         console.log(i);
+//     }
+// }
+
+// secondTask();
+
+
+
+// function fourthTask() {
+    
+//     let i = 2;
+//     while (i <= 16) {
+//         if (i % 2 === 0) {
+//             i++;
+//             continue;
+//         } else {
+//             console.log(i);
+//         }
+//         i++;
+//     }
+// }
+
+// fourthTask();
+
+
+
+// function fifthTask() {
+//     const arrayOfNumbers = [];
+
+    // Пишем решение вот тут
+//     for (var i = 5; i <= 10; i++) {
+//         arrayOfNumbers.push(i);
+//     }
+//     console.log(arrayOfNumbers);
+    // Не трогаем
+//     return arrayOfNumbers;
+// }
+// fifthTask();
+
 
 
 
