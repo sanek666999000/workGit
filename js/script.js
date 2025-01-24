@@ -877,16 +877,16 @@ P.S. Функции вызывать не обязательно*/
 
 //                               Callback- функции
 
-function learnJS(lend, callback) {
-    console.log(`Я учу: ${lend}`);
-    callback();
-}
+// function learnJS(lend, callback) {
+//     console.log(`Я учу: ${lend}`);
+//     callback();
+// }
 
-function done() {
-    console.log('Я прошел этот урок!');
-}
+// function done() {
+//     console.log('Я прошел этот урок!');
+// }
 
-learnJS('JavaScript', done);
+// learnJS('JavaScript', done);
 
 
 
@@ -912,4 +912,15 @@ learnJS('JavaScript', done);
 
 
 // 
+
+function learnJS(lend, callback) {
+    console.log(`Я учу: ${lend}`);
+    callback();
+console.log(callback);
+}
+function done() {
+    console.log('Я прошел этот урок!');
+}
+
+learnJS('JavaScript', done);
 
