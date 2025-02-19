@@ -185,11 +185,11 @@
 // }
 
 
-                        //  Тернарный оператор
+//  Тернарный оператор
 
 // (num === 50) ? console.log('Ok') : console.log('Error');
 
-                        // Свитч
+// Свитч
 // const num = 50;                        
 
 // switch (num) {
@@ -210,7 +210,7 @@
 
 
 
-                         // Логические операторы && , || ,
+// Логические операторы && , || ,
 
 
 // const a = 3
@@ -232,7 +232,7 @@
 //    console.log('Done!')
 // }
 
-                                                            //   циклы
+//   циклы
 
 //  let num =50;
 // while (num <= 55) {
@@ -283,9 +283,9 @@
 // let i, j;
 
 // loop1: for (i = 0; i < 3; i++) {
-  //Первый цикл, обозначенный меткой "loop1"
+//Первый цикл, обозначенный меткой "loop1"
 //   loop2: for (j = 0; j < 3; j++) {
-    //Второй цикл, обозначенный меткой "loop2"
+//Второй цикл, обозначенный меткой "loop2"
 //     if (i === 1 && j === 1) {
 //       continue loop1;
 //     }
@@ -294,15 +294,15 @@
 // }
 
 // function firstTask() {
-    // Пишем решение вот тут
+// Пишем решение вот тут
 //     for(let i = 5; i <= 10; i++) {
 //   console.log(i);
 // }
-    
+
 // }
 
 // function secondTask() {
-    // Пишем решение вот тут
+// Пишем решение вот тут
 //      for (let i = 20; i >= 10; i--) {
 //         if (i == 13) break;
 //         console.log(i);
@@ -314,7 +314,7 @@
 
 
 // function fourthTask() {
-    
+
 //     let i = 2;
 //     while (i <= 16) {
 //         if (i % 2 === 0) {
@@ -334,12 +334,12 @@
 // function fifthTask() {
 //     const arrayOfNumbers = [];
 
-    // Пишем решение вот тут
+// Пишем решение вот тут
 //     for (var i = 5; i <= 10; i++) {
 //         arrayOfNumbers.push(i);
 //     }
 //     console.log(arrayOfNumbers);
-    // Не трогаем
+// Не трогаем
 //     return arrayOfNumbers;
 // }
 // fifthTask();
@@ -519,7 +519,7 @@
 // console.log(personalMovieDB);
 
 
-                                               //Функции declaration
+//Функции declaration
 // function calc(a, b) {
 //     return (a + b);
 // }
@@ -530,7 +530,7 @@
 
 // function ret() {
 //     let num = 50;
-    //
+//
 //     return num;
 // }
 
@@ -629,11 +629,11 @@
 //     for (let i = 1; i <= times; i++) {
 //         if (i === times) {
 //             str += `${num * i}`;
-            // Тут без черточек в конце
+// Тут без черточек в конце
 //         } else {
 //             str += `${num * i}---`;
-            // Это тоже самое, что и
-            // str = str + num * i + "---"
+// Это тоже самое, что и
+// str = str + num * i + "---"
 //         }
 //     }
 
@@ -698,7 +698,7 @@ P.S. Функции вызывать не обязательно*/
 //     for (let i = 0; i < 2; i++) {
 //         const a = prompt('Один из последних просмотренных фильмов?', ''),
 //               b = prompt('На сколько оцените его?', '');
-    
+
 //         if (a != null && b != null && a != '' && b != '' && a.length < 50) {
 //             personalMovieDB.movies[a] = b;
 //             console.log('done');
@@ -840,7 +840,7 @@ P.S. Функции вызывать не обязательно*/
 // function fib(n) {
 //     return n <= 1 ? n : fib(n - 1) + fib(n - 2);
 //   }
-  
+
 //   alert( fib(3) ); // 2
 //   alert( fib(7) ); // 13
 //   // fib(77); // вычисляется очень долго
@@ -896,7 +896,7 @@ P.S. Функции вызывать не обязательно*/
 
 
 
-                                         //Фуннкции expression
+//Фуннкции expression
 
 
 // const logger = function() {
@@ -906,21 +906,129 @@ P.S. Функции вызывать не обязательно*/
 
 // logger();
 
-                                         //Фуннкции Стрелочные
+//Фуннкции Стрелочные
 
 // const calc = (a, b) => a + b;
 
 
 // 
 
-function learnJS(lend, callback) {
-    console.log(`Я учу: ${lend}`);
-    callback();
-console.log(callback);
-}
-function done() {
-    console.log('Я прошел этот урок!');
+// function learnJS(lend, callback) {
+//     console.log(`Я учу: ${lend}`);
+//     callback();
+// console.log(callback);
+// }
+// function done() {
+//     console.log('Я прошел этот урок!');
+// }
+
+// learnJS('JavaScript', done);
+
+
+// console.log( 5 === 5 && 3 > 5 || 2);
+
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+
+
+// if (hamburger === 3 && cola || fries === 3 && nuggets) {
+//    console.log('Done!')
+// }
+// function secondTask() {
+//  Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//     const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+
+// const arr = [2, 3, 4, 5, 8, 10];
+
+// arr.pop();
+// arr.push(10);
+
+// console.log(arr);
+
+//  for (let value of arr) {
+//     console.log(value);
+//  }
+
+// const family = ['Peter', 'Ann', 'Alex', 'Linda'];
+// const favoriteCities = ['liSBon', 'ROME', 'miLan', 'Dublin'];
+
+// // Функция showFamily
+// function showFamily(arr) {
+//     if (arr.length === 0) {
+//         return "Семья пуста";
+//     }
+//     let familyMembers = arr.join(' ');
+//     return `Семья состоит из: ${familyMembers}`;
+// }
+
+// // Функция standardizeStrings
+// function standardizeStrings(arr) {
+//     arr.forEach(city => {
+//         console.log(city.toLowerCase());
+//     });
+// }
+
+// // Примеры вызова:
+// console.log(showFamily(family)); // "Семья состоит из: Peter Ann Alex Linda"
+// console.log(showFamily([]));     // "Семья пуста"
+
+// standardizeStrings(favoriteCities);
+// Вывод в консоль:
+// lisbon
+// rome
+// milan
+// dublin
+
+
+//Задача на работу с объектами,и массивами
+
+const shoppingMallData = {
+    shops: [
+        {
+            width: 10,
+            length: 5
+        },
+        {
+            width: 15,
+            length: 7
+        },
+        {
+            width: 20,
+            length: 5
+        },
+        {
+            width: 8,
+            length: 10
+        }
+    ],
+
+    height: 5,
+    moneyPer1m3: 30,
+    budget: 50000
 }
 
-learnJS('JavaScript', done);
+function isBudgetEnough(data) {
+    let square = 0;
+    let volume = 0;
 
+    data.shops.forEach(shop => {
+        square += shop.width * shop.length;
+    });
+    volume = data.height * square;
+
+    const totalCost = volume * data.moneyPer1m3;
+    console.log(`Общая площадь: ${square} м²`);
+    console.log(`Общий объем: ${volume} м³`);
+    console.log(`Стоимость отопления: ${totalCost}`);
+    console.log(`Бюджет: ${data.budget}`);
+
+    if (data.budget >= totalCost) {
+        return 'Бюджета достаточно';
+    } else {
+        return 'Бюджета недостаточно';
+    }
+}
+isBudgetEnough(shoppingMallData);
